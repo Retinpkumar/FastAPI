@@ -1,4 +1,4 @@
-<h1> FastAPI</h1>
+
 <img src="https://fastapi.tiangolo.com/img/logo-margin/logo-teal.png">
 
 <p> FastAPI is a modern web framework for building API's with Python3.6 and above versions.</p>
