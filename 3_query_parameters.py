@@ -26,7 +26,7 @@ async def read_item(skip: int=0, limit: int=10):
 """
 # Optional query parameters can be declared by setting their default
 # to None
-
+######################################################################################################
 from typing import Optional
 
 from fastapi import FastAPI
@@ -38,7 +38,7 @@ async def read_item(item_id: str, q: Optional[str] = None):
     if q:
         return {"item_id": item_id, "q": q}
     return {"item_id": item_id}
-
+######################################################################################################
 """
     Multiple path and query parameters can be declared  at the same time
     without any specific order.
@@ -63,7 +63,7 @@ async def read_user_item(
             {"description": "This is an amazing item that has a long description."}
         )
     return item
-
+######################################################################################################
 """
     A default value cannot be declared for a non-optional query parameter.
 """
@@ -74,10 +74,10 @@ app = FastAPI()
 
 @app.get("/users/{user_id}/items/{item_id}")
 async def read_user_item(
-    item_id: str,
-    needy: str,
-    skip: int=0,
-    limit: Optional[int]=None
+    item_id: str, # path parameter
+    needy: str, # non-optional query parameter
+    skip: int=0, # query parameter
+    limit: Optional[int]=None # optional query parameter
     ):
     item = {
         "item_id": item_id, 
