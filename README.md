@@ -1,4 +1,4 @@
-<h1> FastAPI notes for reference 🐱‍🏍</h1>
+<h1> FastAPI 🐱‍🏍</h1>
 
 <h3>Contents</h3>
 <ul>
