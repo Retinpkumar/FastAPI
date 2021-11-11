@@ -13,18 +13,18 @@
   </li>
   <li>
     <h4>Path_parameters</h4>
-    <ol>
+    <ul>
       <li>Path parameter declaration</li>
       <li>Enum</li>
       <li>Creating a path inside a path</li>
-    </ol>
+    </ul>
   </li>
   <li>
     <h4>Query parameters</h4>
-    <ol>
+    <ul>
       <li>Query parameter declaration</li>
       <li>Multiple parameters</li>
       <li>Optional query parameters</li>
-    </ol>
+    </ul>
   </li>
 </ul>
